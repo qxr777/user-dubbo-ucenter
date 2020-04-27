@@ -1,0 +1,2 @@
+spring = com.alibaba.dubbo.container.spring.SpringContainer
+myjetty=edu.whut.cs.jee.ucenter.config.JettyContainer

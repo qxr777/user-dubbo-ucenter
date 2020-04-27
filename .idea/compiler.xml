@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="user-spring-boot-web" />
+        <module name="user-spring-boot-service" />
+        <module name="user-spring-boot-common" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="user-spring-boot-common" options="-parameters" />
+      <module name="user-spring-boot-service" options="-parameters" />
+      <module name="user-spring-boot-web" options="-parameters" />
+    </option>
+  </component>
+</project>
